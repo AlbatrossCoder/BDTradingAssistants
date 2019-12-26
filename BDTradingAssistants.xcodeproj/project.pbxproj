@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77506FAC23B4AEC300459B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77506FAB23B4AEC300459B8B /* AppDelegate.swift */; };
+		77506FAE23B4AEC400459B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77506FAD23B4AEC400459B8B /* Assets.xcassets */; };
+		77506FB123B4AEC400459B8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77506FAF23B4AEC400459B8B /* MainMenu.xib */; };
+		CF064E187190A95DB8E1EF7F /* libPods-BDTradingAssistants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74037B385A60014B7B2D5B38 /* Pods-BDTradingAssistants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDTradingAssistants.release.xcconfig"; path = "Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants.release.xcconfig"; sourceTree = "<group>"; };
+		77506FA823B4AEC300459B8B /* BDTradingAssistants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDTradingAssistants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77506FAB23B4AEC300459B8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77506FAD23B4AEC400459B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77506FB023B4AEC400459B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		77506FB223B4AEC400459B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77506FB323B4AEC400459B8B /* BDTradingAssistants.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BDTradingAssistants.entitlements; sourceTree = "<group>"; };
+		9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDTradingAssistants.debug.xcconfig"; path = "Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants.debug.xcconfig"; sourceTree = "<group>"; };
+		D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDTradingAssistants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77506FA523B4AEC300459B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF064E187190A95DB8E1EF7F /* libPods-BDTradingAssistants.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C554CBC66A2A8E53E75744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */,
+				74037B385A60014B7B2D5B38 /* Pods-BDTradingAssistants.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		558B35CB692478D22852E7BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77506F9F23B4AEC300459B8B = {
+			isa = PBXGroup;
+			children = (
+				77506FAA23B4AEC300459B8B /* BDTradingAssistants */,
+				77506FA923B4AEC300459B8B /* Products */,
+				14C554CBC66A2A8E53E75744 /* Pods */,
+				558B35CB692478D22852E7BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77506FA923B4AEC300459B8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77506FA823B4AEC300459B8B /* BDTradingAssistants.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77506FAA23B4AEC300459B8B /* BDTradingAssistants */ = {
+			isa = PBXGroup;
+			children = (
+				77506FAB23B4AEC300459B8B /* AppDelegate.swift */,
+				77506FAD23B4AEC400459B8B /* Assets.xcassets */,
+				77506FAF23B4AEC400459B8B /* MainMenu.xib */,
+				77506FB223B4AEC400459B8B /* Info.plist */,
+				77506FB323B4AEC400459B8B /* BDTradingAssistants.entitlements */,
+			);
+			path = BDTradingAssistants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77506FA723B4AEC300459B8B /* BDTradingAssistants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77506FB623B4AEC400459B8B /* Build configuration list for PBXNativeTarget "BDTradingAssistants" */;
+			buildPhases = (
+				5F7B6AECCA08D96608423D91 /* [CP] Check Pods Manifest.lock */,
+				77506FA423B4AEC300459B8B /* Sources */,
+				77506FA523B4AEC300459B8B /* Frameworks */,
+				77506FA623B4AEC300459B8B /* Resources */,
+				F50264726B3FDA5B8F42CF9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDTradingAssistants;
+			productName = BDTradingAssistants;
+			productReference = 77506FA823B4AEC300459B8B /* BDTradingAssistants.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77506FA023B4AEC300459B8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Albatross;
+				TargetAttributes = {
+					77506FA723B4AEC300459B8B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 77506FA323B4AEC300459B8B /* Build configuration list for PBXProject "BDTradingAssistants" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77506F9F23B4AEC300459B8B;
+			productRefGroup = 77506FA923B4AEC300459B8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77506FA723B4AEC300459B8B /* BDTradingAssistants */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77506FA623B4AEC300459B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77506FAE23B4AEC400459B8B /* Assets.xcassets in Resources */,
+				77506FB123B4AEC400459B8B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7B6AECCA08D96608423D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BDTradingAssistants-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50264726B3FDA5B8F42CF9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77506FA423B4AEC300459B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77506FAC23B4AEC300459B8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77506FAF23B4AEC400459B8B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77506FB023B4AEC400459B8B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77506FB423B4AEC400459B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77506FB523B4AEC400459B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		77506FB723B4AEC400459B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/BDTradingAssistants.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2SLL3QJVYW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BDTradingAssistants/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Albatross.BDTradingAssistants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		77506FB823B4AEC400459B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74037B385A60014B7B2D5B38 /* Pods-BDTradingAssistants.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/BDTradingAssistants.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2SLL3QJVYW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BDTradingAssistants/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Albatross.BDTradingAssistants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77506FA323B4AEC300459B8B /* Build configuration list for PBXProject "BDTradingAssistants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77506FB423B4AEC400459B8B /* Debug */,
+				77506FB523B4AEC400459B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77506FB623B4AEC400459B8B /* Build configuration list for PBXNativeTarget "BDTradingAssistants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77506FB723B4AEC400459B8B /* Debug */,
+				77506FB823B4AEC400459B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77506FA023B4AEC300459B8B /* Project object */;
+}

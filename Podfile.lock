@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - HandyJSON (5.0.1)
+  - Masonry (1.1.0)
+  - MASShortcut (2.4.0)
+  - ReactiveCocoa (10.1.0):
+    - ReactiveSwift (~> 6.1)
+  - ReactiveSwift (6.1.0)
+  - SocketRocket (0.5.1)
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - HandyJSON
+  - Masonry
+  - MASShortcut
+  - ReactiveCocoa
+  - SocketRocket
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - HandyJSON
+    - Masonry
+    - MASShortcut
+    - ReactiveCocoa
+    - ReactiveSwift
+    - SocketRocket
+    - Then
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MASShortcut: d9e4909e878661cc42877cc9d6efbe638273ab57
+  ReactiveCocoa: 2f1d942d79072eded6d8c3bc7c2a641d40855a56
+  ReactiveSwift: b78c7259f8ca46368238c895ae33a6a3bf9f811c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: 6c1913e773e46df5891a43861f36a6fdb3d5ea47
+
+COCOAPODS: 1.8.4

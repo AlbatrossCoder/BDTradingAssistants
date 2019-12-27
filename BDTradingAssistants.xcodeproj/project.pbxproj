@@ -10,6 +10,10 @@
 		77506FAC23B4AEC300459B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77506FAB23B4AEC300459B8B /* AppDelegate.swift */; };
 		77506FAE23B4AEC400459B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77506FAD23B4AEC400459B8B /* Assets.xcassets */; };
 		77506FB123B4AEC400459B8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77506FAF23B4AEC400459B8B /* MainMenu.xib */; };
+		775C3D5023B5A8F200B5E46A /* SwiftPrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C3D4F23B5A8F200B5E46A /* SwiftPrefixHeader.swift */; };
+		775C3D5823B5B17500B5E46A /* BaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C3D5723B5B17500B5E46A /* BaseWindow.swift */; };
+		775C3D5B23B5B18700B5E46A /* BaseWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C3D5923B5B18700B5E46A /* BaseWindowController.swift */; };
+		775C3D5C23B5B18700B5E46A /* BaseWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775C3D5A23B5B18700B5E46A /* BaseWindowController.xib */; };
 		CF064E187190A95DB8E1EF7F /* libPods-BDTradingAssistants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +25,11 @@
 		77506FB023B4AEC400459B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		77506FB223B4AEC400459B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77506FB323B4AEC400459B8B /* BDTradingAssistants.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BDTradingAssistants.entitlements; sourceTree = "<group>"; };
+		775C3D4B23B5A89900B5E46A /* BDTradingAssistants-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDTradingAssistants-Bridging-Header.h"; sourceTree = "<group>"; };
+		775C3D4F23B5A8F200B5E46A /* SwiftPrefixHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrefixHeader.swift; sourceTree = "<group>"; };
+		775C3D5723B5B17500B5E46A /* BaseWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWindow.swift; sourceTree = "<group>"; };
+		775C3D5923B5B18700B5E46A /* BaseWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWindowController.swift; sourceTree = "<group>"; };
+		775C3D5A23B5B18700B5E46A /* BaseWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseWindowController.xib; sourceTree = "<group>"; };
 		9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDTradingAssistants.debug.xcconfig"; path = "Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants.debug.xcconfig"; sourceTree = "<group>"; };
 		D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDTradingAssistants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -58,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				77506FAA23B4AEC300459B8B /* BDTradingAssistants */,
+				77506FAD23B4AEC400459B8B /* Assets.xcassets */,
 				77506FA923B4AEC300459B8B /* Products */,
 				14C554CBC66A2A8E53E75744 /* Pods */,
 				558B35CB692478D22852E7BB /* Frameworks */,
@@ -75,13 +85,97 @@
 		77506FAA23B4AEC300459B8B /* BDTradingAssistants */ = {
 			isa = PBXGroup;
 			children = (
-				77506FAB23B4AEC300459B8B /* AppDelegate.swift */,
-				77506FAD23B4AEC400459B8B /* Assets.xcassets */,
-				77506FAF23B4AEC400459B8B /* MainMenu.xib */,
-				77506FB223B4AEC400459B8B /* Info.plist */,
-				77506FB323B4AEC400459B8B /* BDTradingAssistants.entitlements */,
+				775C3D5223B5B00300B5E46A /* Base */,
+				775C3D4923B5A7D400B5E46A /* Common */,
+				775C3D4A23B5A7D400B5E46A /* Utilities */,
+				775C3D5123B5AFE800B5E46A /* Windows */,
+				775C3D4623B5A7D400B5E46A /* Views */,
+				775C3D4323B5A7D400B5E46A /* Class */,
+				775C3D4723B5A7D400B5E46A /* Extension */,
+				775C3D4523B5A7D400B5E46A /* Manager */,
+				775C3D4423B5A7D400B5E46A /* Resource */,
+				775C3D4823B5A7D400B5E46A /* DefaultFiles */,
 			);
 			path = BDTradingAssistants;
+			sourceTree = "<group>";
+		};
+		775C3D4323B5A7D400B5E46A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		775C3D4423B5A7D400B5E46A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		775C3D4523B5A7D400B5E46A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		775C3D4623B5A7D400B5E46A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		775C3D4723B5A7D400B5E46A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		775C3D4823B5A7D400B5E46A /* DefaultFiles */ = {
+			isa = PBXGroup;
+			children = (
+				77506FB323B4AEC400459B8B /* BDTradingAssistants.entitlements */,
+				775C3D4B23B5A89900B5E46A /* BDTradingAssistants-Bridging-Header.h */,
+				775C3D4F23B5A8F200B5E46A /* SwiftPrefixHeader.swift */,
+				77506FAB23B4AEC300459B8B /* AppDelegate.swift */,
+				77506FAF23B4AEC400459B8B /* MainMenu.xib */,
+				77506FB223B4AEC400459B8B /* Info.plist */,
+			);
+			path = DefaultFiles;
+			sourceTree = "<group>";
+		};
+		775C3D4923B5A7D400B5E46A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		775C3D4A23B5A7D400B5E46A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		775C3D5123B5AFE800B5E46A /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				775C3D5723B5B17500B5E46A /* BaseWindow.swift */,
+				775C3D5923B5B18700B5E46A /* BaseWindowController.swift */,
+				775C3D5A23B5B18700B5E46A /* BaseWindowController.xib */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		775C3D5223B5B00300B5E46A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +212,7 @@
 				TargetAttributes = {
 					77506FA723B4AEC300459B8B = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -144,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775C3D5C23B5B18700B5E46A /* BaseWindowController.xib in Resources */,
 				77506FAE23B4AEC400459B8B /* Assets.xcassets in Resources */,
 				77506FB123B4AEC400459B8B /* MainMenu.xib in Resources */,
 			);
@@ -198,6 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775C3D5B23B5B18700B5E46A /* BaseWindowController.swift in Sources */,
+				775C3D5023B5A8F200B5E46A /* SwiftPrefixHeader.swift in Sources */,
+				775C3D5823B5B17500B5E46A /* BaseWindow.swift in Sources */,
 				77506FAC23B4AEC300459B8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,12 +433,13 @@
 			baseConfigurationReference = 9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/BDTradingAssistants.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/DefaultFiles/BDTradingAssistants.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SLL3QJVYW;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = BDTradingAssistants/Info.plist;
+				INFOPLIST_FILE = BDTradingAssistants/DefaultFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -347,6 +447,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Albatross.BDTradingAssistants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDTradingAssistants/DefaultFiles/BDTradingAssistants-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -356,12 +458,13 @@
 			baseConfigurationReference = 74037B385A60014B7B2D5B38 /* Pods-BDTradingAssistants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/BDTradingAssistants.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BDTradingAssistants/DefaultFiles/BDTradingAssistants.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2SLL3QJVYW;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = BDTradingAssistants/Info.plist;
+				INFOPLIST_FILE = BDTradingAssistants/DefaultFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -369,6 +472,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Albatross.BDTradingAssistants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BDTradingAssistants/DefaultFiles/BDTradingAssistants-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

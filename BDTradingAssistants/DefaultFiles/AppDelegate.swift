@@ -10,16 +10,23 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
-
-
+    
+    var mainWindow:BaseWindowController!
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        
+        mainWindow = BaseWindowController(windowNibName: "BaseWindowController")
+        mainWindow.window?.center()
+        mainWindow.window?.orderFront(nil)
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        
+        
+        
     }
 
 

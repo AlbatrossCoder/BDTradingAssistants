@@ -14,6 +14,12 @@
 		775C3D5823B5B17500B5E46A /* BaseWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C3D5723B5B17500B5E46A /* BaseWindow.swift */; };
 		775C3D5B23B5B18700B5E46A /* BaseWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775C3D5923B5B18700B5E46A /* BaseWindowController.swift */; };
 		775C3D5C23B5B18700B5E46A /* BaseWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 775C3D5A23B5B18700B5E46A /* BaseWindowController.xib */; };
+		77AE109623BDE77200894967 /* TradingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE109523BDE77200894967 /* TradingManager.swift */; };
+		77AE109823BDE89F00894967 /* MarketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE109723BDE89F00894967 /* MarketManager.swift */; };
+		77AE109A23BDE8B000894967 /* MonitorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE109923BDE8B000894967 /* MonitorManager.swift */; };
+		77AE109F23BDEA9F00894967 /* Network_OKex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE109E23BDEA9F00894967 /* Network_OKex.swift */; };
+		77AE10A123BDEAAA00894967 /* Network_Huobi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE10A023BDEAAA00894967 /* Network_Huobi.swift */; };
+		77AE10A323BDEC5400894967 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE10A223BDEC5400894967 /* AccountManager.swift */; };
 		CF064E187190A95DB8E1EF7F /* libPods-BDTradingAssistants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +36,12 @@
 		775C3D5723B5B17500B5E46A /* BaseWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWindow.swift; sourceTree = "<group>"; };
 		775C3D5923B5B18700B5E46A /* BaseWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWindowController.swift; sourceTree = "<group>"; };
 		775C3D5A23B5B18700B5E46A /* BaseWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseWindowController.xib; sourceTree = "<group>"; };
+		77AE109523BDE77200894967 /* TradingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingManager.swift; sourceTree = "<group>"; };
+		77AE109723BDE89F00894967 /* MarketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketManager.swift; sourceTree = "<group>"; };
+		77AE109923BDE8B000894967 /* MonitorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorManager.swift; sourceTree = "<group>"; };
+		77AE109E23BDEA9F00894967 /* Network_OKex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_OKex.swift; sourceTree = "<group>"; };
+		77AE10A023BDEAAA00894967 /* Network_Huobi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Huobi.swift; sourceTree = "<group>"; };
+		77AE10A223BDEC5400894967 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 		9A1EEBD796A4FC8DF73C521C /* Pods-BDTradingAssistants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDTradingAssistants.debug.xcconfig"; path = "Target Support Files/Pods-BDTradingAssistants/Pods-BDTradingAssistants.debug.xcconfig"; sourceTree = "<group>"; };
 		D637676F70790F9A5B2BC48E /* libPods-BDTradingAssistants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDTradingAssistants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,20 +102,21 @@
 				775C3D4A23B5A7D400B5E46A /* Utilities */,
 				775C3D5123B5AFE800B5E46A /* Windows */,
 				775C3D4623B5A7D400B5E46A /* Views */,
-				775C3D4323B5A7D400B5E46A /* Class */,
-				775C3D4723B5A7D400B5E46A /* Extension */,
-				775C3D4523B5A7D400B5E46A /* Manager */,
+				775C3D4323B5A7D400B5E46A /* Classes */,
+				775C3D4723B5A7D400B5E46A /* Extensions */,
+				775C3D4523B5A7D400B5E46A /* Managers */,
+				77AE109D23BDEA5C00894967 /* Network */,
 				775C3D4423B5A7D400B5E46A /* Resource */,
 				775C3D4823B5A7D400B5E46A /* DefaultFiles */,
 			);
 			path = BDTradingAssistants;
 			sourceTree = "<group>";
 		};
-		775C3D4323B5A7D400B5E46A /* Class */ = {
+		775C3D4323B5A7D400B5E46A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Class;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		775C3D4423B5A7D400B5E46A /* Resource */ = {
@@ -113,11 +126,15 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		775C3D4523B5A7D400B5E46A /* Manager */ = {
+		775C3D4523B5A7D400B5E46A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				77AE10A223BDEC5400894967 /* AccountManager.swift */,
+				77AE109523BDE77200894967 /* TradingManager.swift */,
+				77AE109723BDE89F00894967 /* MarketManager.swift */,
+				77AE109923BDE8B000894967 /* MonitorManager.swift */,
 			);
-			path = Manager;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		775C3D4623B5A7D400B5E46A /* Views */ = {
@@ -127,11 +144,11 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		775C3D4723B5A7D400B5E46A /* Extension */ = {
+		775C3D4723B5A7D400B5E46A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		775C3D4823B5A7D400B5E46A /* DefaultFiles */ = {
@@ -176,6 +193,15 @@
 			children = (
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		77AE109D23BDEA5C00894967 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				77AE109E23BDEA9F00894967 /* Network_OKex.swift */,
+				77AE10A023BDEAAA00894967 /* Network_Huobi.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +321,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				775C3D5B23B5B18700B5E46A /* BaseWindowController.swift in Sources */,
+				77AE109823BDE89F00894967 /* MarketManager.swift in Sources */,
+				77AE109A23BDE8B000894967 /* MonitorManager.swift in Sources */,
+				77AE109F23BDEA9F00894967 /* Network_OKex.swift in Sources */,
 				775C3D5023B5A8F200B5E46A /* SwiftPrefixHeader.swift in Sources */,
+				77AE10A323BDEC5400894967 /* AccountManager.swift in Sources */,
 				775C3D5823B5B17500B5E46A /* BaseWindow.swift in Sources */,
 				77506FAC23B4AEC300459B8B /* AppDelegate.swift in Sources */,
+				77AE10A123BDEAAA00894967 /* Network_Huobi.swift in Sources */,
+				77AE109623BDE77200894967 /* TradingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

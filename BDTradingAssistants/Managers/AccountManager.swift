@@ -11,10 +11,13 @@ import Cocoa
 class AccountManager: NSObject {
     
     struct API_Key_Huobi {
-        let Access_Key = "2ac1beac-fd49cf55-uymylwhfeg-a91ef"
-        let Secret_Key = "13c5722b-8ed5b1af-7f84cbb7-030c0"
+        let Access_Key = ""
+        let Secret_Key = ""
     }
     
-    
+    struct API_Key_Okex {
+        let Access_Key = "08cab148-f01c-4fa2-985e-f4fd449f45f6"
+        let Secret_Key = "142CDF5444B89E809DB8F4B4FC76B746"
+    }
     
 }
